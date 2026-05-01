@@ -1,7 +1,7 @@
 🍄 Mushroom Classification ML Project
 __________________________________________________________________________________________________________________________________________
 📌 Project Overview
-
+------------------------------------------------------------------------------------------------------------------------------------------
 This project focuses on building a Machine Learning model to classify mushrooms as edible or poisonous based on their physical characteristics. The dataset includes various features such as cap shape, color, gill structure, stem properties, and habitat.
 __________________________________________________________________________________________________________________________________________
 🎯 Objective
