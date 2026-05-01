@@ -14,99 +14,99 @@ The dataset contains 61,069 rows and 21 columns with both numerical and categori
 
 Main Features Include:
 
-Cap: diameter, shape, surface, color
+• Cap: diameter, shape, surface, color
 
-Gill: attachment, spacing, color
+• Gill: attachment, spacing, color
 
-Stem: height, width, root, surface, color
+• Stem: height, width, root, surface, color
 
-Veil and Ring features
+• Veil and Ring features
 
-Spore print color
+• Spore print color
 
-Habitat and season
+• Habitat and season
 
 Target Variable: class
 
-e = Edible
+• e = Edible
 
-p = Poisonous
+• p = Poisonous
 
 🔍 Data Analysis (EDA)
 
-Checked missing values and data types
+• Checked missing values and data types
 
-Performed countplots, histograms, boxplots, heatmaps
+• Performed countplots, histograms, boxplots, heatmaps
 
-Analyzed feature vs class relationships
+• Analyzed feature vs class relationships
 
-Identified patterns for poisonous and edible mushrooms
+• Identified patterns for poisonous and edible mushrooms
 
 🧹 Data Preprocessing
 
-Handled missing values using median (numerical) and mode (categorical)
+• Handled missing values using median (numerical) and mode (categorical)
 
-Removed duplicate records
+• Removed duplicate records
 
-Converted data types appropriately
+• Converted data types appropriately
 
-Encoded categorical variables using OneHotEncoder
+• Encoded categorical variables using OneHotEncoder
 
-Scaled numerical features using StandardScaler
+• Scaled numerical features using StandardScaler
 
 ⚙️ Machine Learning Pipeline
 
-Used ColumnTransformer for preprocessing
+• Used ColumnTransformer for preprocessing
 
-Applied RandomOverSampler to handle class imbalance
+• Applied RandomOverSampler to handle class imbalance
 
-Built pipelines using sklearn and imblearn
+• Built pipelines using sklearn and imblearn
 
 🤖 Models Used
 
-Logistic Regression
+• Logistic Regression
 
-Decision Tree
+• Decision Tree
 
-Random Forest
+• Random Forest
 
-Support Vector Machine (SVM)
+• Support Vector Machine (SVM)
 
-AdaBoost
+• AdaBoost
 
-XGBoost
+• XGBoost
 
 🔍 Model Optimization
 
-Hyperparameter tuning using GridSearchCV
+• Hyperparameter tuning using GridSearchCV
 
-Cross-validation for better model performance
+• Cross-validation for better model performance
 
 📈 Results
 
-Random Forest and XGBoost also showed strong performance
+• Random Forest and XGBoost also showed strong performance
 
-Balanced data improved prediction quality
+• Balanced data improved prediction quality
 
 🛠️ Tools & Technologies
 
-Python
+• Python
 
-Pandas, NumPy
+• Pandas, NumPy
 
-Matplotlib, Seaborn
+• Matplotlib, Seaborn
 
-Scikit-learn
+• Scikit-learn
 
-XGBoost
+• XGBoost
 
-Imbalanced-learn
+• Imbalanced-learn
 
-Jupyter Notebook
+• Jupyter Notebook
 
 📂 Project Structure
 
-Mushroom-Classification/
+• Mushroom-Classification/
 
 │── Data.csv │── Mushroom_Analysis.ipynb │── Mushroom_ML.ipynb │── Mushroom_Project_Presentation.pptx │── README.md
 
