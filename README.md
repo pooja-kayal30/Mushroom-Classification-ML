@@ -1,13 +1,13 @@
 🍄 Mushroom Classification ML Project
-
+__________________________________________________________________________________________________________________________________________
 📌 Project Overview
 
 This project focuses on building a Machine Learning model to classify mushrooms as edible or poisonous based on their physical characteristics. The dataset includes various features such as cap shape, color, gill structure, stem properties, and habitat.
-
+__________________________________________________________________________________________________________________________________________
 🎯 Objective
 
 To develop an accurate classification model that can predict whether a mushroom is edible or poisonous based on its physical features.
-
+__________________________________________________________________________________________________________________________________________
 📊 Dataset Features
 
 The dataset contains 61,069 rows and 21 columns with both numerical and categorical features.
@@ -31,7 +31,7 @@ Target Variable: class
 • e = Edible
 
 • p = Poisonous
-
+__________________________________________________________________________________________________________________________________________
 🔍 Data Analysis (EDA)
 
 • Checked missing values and data types
@@ -41,7 +41,7 @@ Target Variable: class
 • Analyzed feature vs class relationships
 
 • Identified patterns for poisonous and edible mushrooms
-
+__________________________________________________________________________________________________________________________________________
 🧹 Data Preprocessing
 
 • Handled missing values using median (numerical) and mode (categorical)
@@ -53,7 +53,7 @@ Target Variable: class
 • Encoded categorical variables using OneHotEncoder
 
 • Scaled numerical features using StandardScaler
-
+__________________________________________________________________________________________________________________________________________
 ⚙️ Machine Learning Pipeline
 
 • Used ColumnTransformer for preprocessing
@@ -61,7 +61,7 @@ Target Variable: class
 • Applied RandomOverSampler to handle class imbalance
 
 • Built pipelines using sklearn and imblearn
-
+__________________________________________________________________________________________________________________________________________
 🤖 Models Used
 
 • Logistic Regression
@@ -75,19 +75,19 @@ Target Variable: class
 • AdaBoost
 
 • XGBoost
-
+__________________________________________________________________________________________________________________________________________
 🔍 Model Optimization
 
 • Hyperparameter tuning using GridSearchCV
 
 • Cross-validation for better model performance
-
+__________________________________________________________________________________________________________________________________________
 📈 Results
 
 • Random Forest and XGBoost also showed strong performance
 
 • Balanced data improved prediction quality
-
+__________________________________________________________________________________________________________________________________________
 🛠️ Tools & Technologies
 
 • Python
@@ -103,13 +103,13 @@ Target Variable: class
 • Imbalanced-learn
 
 • Jupyter Notebook
-
+__________________________________________________________________________________________________________________________________________
 📂 Project Structure
 
 • Mushroom-Classification/
 
 │── Data.csv │── Mushroom_Analysis.ipynb │── Mushroom_ML.ipynb │── Mushroom_Project_Presentation.pptx │── README.md
-
+__________________________________________________________________________________________________________________________________________
 🙌 Author
 
 POOJA KAYAL
